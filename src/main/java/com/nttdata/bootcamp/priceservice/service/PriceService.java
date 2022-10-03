@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.nttdata.bootcamp.priceservice.model.Prices;
 import com.nttdata.bootcamp.priceservice.repository.PriceRepository;
 
-
+@RefreshScope
 @Service
 public class PriceService {
 
